@@ -18,11 +18,14 @@
   --display-size-700: 6.5rem;
   --display-size-800: 7.0rem;
   --display-size-900: 7.5rem;
+
+  --Display-text-color: inherit;
 }
 
 @each $displaySize in 100, 200, 300, 400, 500, 600, 700, 800, 900 {
   @each $fontWeight in 100, 200, 300, 400, 500, 600, 700, 800, 900 {
     .Display--fs$(displaySize)fw$(fontWeight) {
+      color: var(--Display-text-color);
       font-size: var(--display-size-$(displaySize));
       font-weight: $(fontWeight);
        }
