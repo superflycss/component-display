@@ -1,5 +1,7 @@
 # Display component
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/superflycss/component-display.svg)](https://greenkeeper.io/)
+
 ## Installation
 
 See [Installation](https://github.com/superflycss/superflycss/#installation).
