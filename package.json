@@ -2,16 +2,13 @@
   "name": "@superflycss/component-display",
   "version": "1.0.2",
   "description": "Display heading component",
-  "main": "src/main/css/index.css",
+  "main": "index.css",
   "scripts": {
-    "update": "ncu -a && npm i",
-    "clean": "gulp clean",
-    "build": "npm run clean && gulp build:css",
-    "test": "npm run build && gulp test:css"
+    "update": "ncu -a && npm i"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/superfly-css/superfly-css-component-display.git"
+    "url": "git+https://github.com/superflycss/component-display.git"
   },
   "keywords": [
     "component",
@@ -26,10 +23,6 @@
   },
   "homepage": "https://github.com/superfly-css/superfly-css-component-display#readme",
   "devDependencies": {
-    "@superflycss/task-build": "^1.0.2",
-    "@superflycss/task-clean": "^1.0.0",
-    "@superflycss/task-deploy": "^1.0.1",
-    "@superflycss/task-test": "^1.0.0",
-    "gulp": "^3.9.1"
+    "@superflycss/cli": "^1.9.1"
   }
 }
