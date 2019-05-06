@@ -10,4 +10,4 @@ See [Usage](https://github.com/superflycss/superflycss/#usage)
 
 ## Tests
 
-[SuperflyCSS Display Component Tests](https://superflycss.github.io/component-display/deploy/test/html/)
+[SuperflyCSS Display Component Tests](https://superflycss.github.io/component-display/target/test/html/)
