@@ -1,10 +1,10 @@
 {
   "name": "@superflycss/component-display",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Display heading component",
   "main": "index.css",
   "scripts": {
-    "update": "ncu -a && npm i"
+    "update": "ncu -u && npm i"
   },
   "repository": {
     "type": "git",
@@ -14,15 +14,26 @@
     "component",
     "css",
     "style",
-    "superfly-css"
+    "superflycss",
+    "display"
   ],
   "author": "Ole Ersoy",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/superfly-css/superfly-css-component-display/issues"
+    "url": "https:/github.com/superflycss/component-display/issues"
   },
-  "homepage": "https://github.com/superfly-css/superfly-css-component-display#readme",
+  "homepage": "github.com/superflycss/component-display#readme",
   "devDependencies": {
-    "@superflycss/cli": "^1.9.1"
+    "@superflycss/component-body": "^1.0.1",
+    "@superflycss/component-header": "^2.1.0",
+    "@superflycss/component-test": "^3.6.29",
+    "@superflycss/foundation": "^2.0.3",
+    "@superflycss/utilities-colors": "^3.1.0",
+    "@superflycss/utilities-effects": "^2.1.0",
+    "@superflycss/utilities-fonts": "^3.3.7",
+    "@superflycss/utilities-format": "^1.2.6",
+    "@superflycss/utilities-layout": "^4.0.22",
+    "lite-server": "^2.4.0",
+    "npm-check-updates": "^3.1.9"
   }
 }

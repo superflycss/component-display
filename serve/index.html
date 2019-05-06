@@ -1,0 +1,489 @@
+<!DOCTYPE html><html lang="en"><head>
+  <meta charset="utf-8">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <title>Tests for @superflycss/component-Display</title>
+  <link href="../css/index.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+</head>
+
+
+<body>
+
+
+  <header class="Header--column">
+    <h1 class="Display--fs400fw700">Component Display</h1>
+    <a class="Header_link" href="https://github.com/superflycss/component-Display/">Github</a>
+  </header>
+
+
+<!--START TEST -->
+
+
+
+  <div class="TestHeader ">
+    <span class="TestCounter"></span>
+    <span class="TestComponent">Display</span>
+  </div>
+  <div class="TestContainer">
+    <div class="TestInput">
+      <div class="TestWhen "></div>
+      <div class="TestDescription ">
+<code class="u-text-color-md-pink-400">
+Display--[fsX]</code>
+is applied to an <code>h1</code> element.  
+</div>
+      <pre class="TestMarkup ">        <code class="html">         
+
+
+<span class="hljs-tag">&lt;<span class="hljs-name">h1</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Display--fs100"</span>&gt;</span>Display--fs100<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">h1</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Display--fs200"</span>&gt;</span>Display--fs200<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">h1</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Display--fs300"</span>&gt;</span>Display--fs300<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">h1</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Display--fs400"</span>&gt;</span>Display--fs400<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">h1</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Display--fs500"</span>&gt;</span>Display--fs500<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">h1</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Display--fs600"</span>&gt;</span>Display--fs600<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">h1</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Display--fs700"</span>&gt;</span>Display--fs700<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">h1</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Display--fs800"</span>&gt;</span>Display--fs800<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">h1</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Display--fs900"</span>&gt;</span>Display--fs900<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+
+
+       </code>
+     </pre>
+     </div>
+    <!--END TEST INPUT-->
+     <div class="TestOutput">
+      <div class="TestThen "></div>
+      <div class="TestDescription">Then the <code>Display--[fsX]</code> CSS is applied to the <code>h1</code> element.</div>
+     <div class="TestRender">
+
+
+<h1 class="Display--fs100">Display--fs100</h1>
+
+<h1 class="Display--fs200">Display--fs200</h1>
+
+<h1 class="Display--fs300">Display--fs300</h1>
+
+<h1 class="Display--fs400">Display--fs400</h1>
+
+<h1 class="Display--fs500">Display--fs500</h1>
+
+<h1 class="Display--fs600">Display--fs600</h1>
+
+<h1 class="Display--fs700">Display--fs700</h1>
+
+<h1 class="Display--fs800">Display--fs800</h1>
+
+<h1 class="Display--fs900">Display--fs900</h1>
+
+
+      </div>      
+    </div>
+  </div>
+
+
+<!--START TEST-->
+
+
+
+  <div class="TestHeader ">
+    <span class="TestCounter"></span>
+    <span class="TestComponent">Display</span>
+  </div>
+  <div class="TestContainer">
+    <div class="TestInput">
+      <div class="TestWhen "></div>
+      <div class="TestDescription ">
+<code class="u-text-color-md-pink-400">
+Display--[fsX][fwY]</code>
+is applied to an <code>h1</code> element.  
+</div>
+      <pre class="TestMarkup ">        <code class="html">         
+
+
+
+<span class="hljs-tag">&lt;<span class="hljs-name">h1</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Display--fs100fw100"</span>&gt;</span>Display--fs100fw100<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">h1</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Display--fs200fw100"</span>&gt;</span>Display--fs200fw100<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">h1</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Display--fs300fw100"</span>&gt;</span>Display--fs300fw100<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">h1</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Display--fs400fw100"</span>&gt;</span>Display--fs400fw100<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">h1</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Display--fs500fw100"</span>&gt;</span>Display--fs500fw100<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">h1</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Display--fs600fw100"</span>&gt;</span>Display--fs600fw100<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">h1</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Display--fs700fw100"</span>&gt;</span>Display--fs700fw100<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">h1</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Display--fs800fw100"</span>&gt;</span>Display--fs800fw100<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">h1</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Display--fs900fw100"</span>&gt;</span>Display--fs900fw100<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+
+
+
+<span class="hljs-tag">&lt;<span class="hljs-name">h1</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Display--fs100fw200"</span>&gt;</span>Display--fs100fw200<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">h1</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Display--fs200fw200"</span>&gt;</span>Display--fs200fw200<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">h1</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Display--fs300fw200"</span>&gt;</span>Display--fs300fw200<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">h1</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Display--fs400fw200"</span>&gt;</span>Display--fs400fw200<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">h1</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Display--fs500fw200"</span>&gt;</span>Display--fs500fw200<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">h1</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Display--fs600fw200"</span>&gt;</span>Display--fs600fw200<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">h1</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Display--fs700fw200"</span>&gt;</span>Display--fs700fw200<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">h1</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Display--fs800fw200"</span>&gt;</span>Display--fs800fw200<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">h1</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Display--fs900fw200"</span>&gt;</span>Display--fs900fw200<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+
+
+
+<span class="hljs-tag">&lt;<span class="hljs-name">h1</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Display--fs100fw300"</span>&gt;</span>Display--fs100fw300<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">h1</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Display--fs200fw300"</span>&gt;</span>Display--fs200fw300<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">h1</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Display--fs300fw300"</span>&gt;</span>Display--fs300fw300<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">h1</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Display--fs400fw300"</span>&gt;</span>Display--fs400fw300<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">h1</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Display--fs500fw300"</span>&gt;</span>Display--fs500fw300<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">h1</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Display--fs600fw300"</span>&gt;</span>Display--fs600fw300<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">h1</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Display--fs700fw300"</span>&gt;</span>Display--fs700fw300<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">h1</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Display--fs800fw300"</span>&gt;</span>Display--fs800fw300<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">h1</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Display--fs900fw300"</span>&gt;</span>Display--fs900fw300<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+
+
+
+<span class="hljs-tag">&lt;<span class="hljs-name">h1</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Display--fs100fw400"</span>&gt;</span>Display--fs100fw400<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">h1</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Display--fs200fw400"</span>&gt;</span>Display--fs200fw400<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">h1</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Display--fs300fw400"</span>&gt;</span>Display--fs300fw400<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">h1</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Display--fs400fw400"</span>&gt;</span>Display--fs400fw400<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">h1</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Display--fs500fw400"</span>&gt;</span>Display--fs500fw400<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">h1</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Display--fs600fw400"</span>&gt;</span>Display--fs600fw400<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">h1</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Display--fs700fw400"</span>&gt;</span>Display--fs700fw400<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">h1</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Display--fs800fw400"</span>&gt;</span>Display--fs800fw400<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">h1</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Display--fs900fw400"</span>&gt;</span>Display--fs900fw400<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+
+
+
+<span class="hljs-tag">&lt;<span class="hljs-name">h1</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Display--fs100fw500"</span>&gt;</span>Display--fs100fw500<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">h1</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Display--fs200fw500"</span>&gt;</span>Display--fs200fw500<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">h1</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Display--fs300fw500"</span>&gt;</span>Display--fs300fw500<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">h1</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Display--fs400fw500"</span>&gt;</span>Display--fs400fw500<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">h1</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Display--fs500fw500"</span>&gt;</span>Display--fs500fw500<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">h1</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Display--fs600fw500"</span>&gt;</span>Display--fs600fw500<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">h1</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Display--fs700fw500"</span>&gt;</span>Display--fs700fw500<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">h1</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Display--fs800fw500"</span>&gt;</span>Display--fs800fw500<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">h1</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Display--fs900fw500"</span>&gt;</span>Display--fs900fw500<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+
+
+
+<span class="hljs-tag">&lt;<span class="hljs-name">h1</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Display--fs100fw600"</span>&gt;</span>Display--fs100fw600<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">h1</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Display--fs200fw600"</span>&gt;</span>Display--fs200fw600<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">h1</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Display--fs300fw600"</span>&gt;</span>Display--fs300fw600<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">h1</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Display--fs400fw600"</span>&gt;</span>Display--fs400fw600<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">h1</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Display--fs500fw600"</span>&gt;</span>Display--fs500fw600<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">h1</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Display--fs600fw600"</span>&gt;</span>Display--fs600fw600<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">h1</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Display--fs700fw600"</span>&gt;</span>Display--fs700fw600<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">h1</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Display--fs800fw600"</span>&gt;</span>Display--fs800fw600<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">h1</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Display--fs900fw600"</span>&gt;</span>Display--fs900fw600<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+
+
+
+<span class="hljs-tag">&lt;<span class="hljs-name">h1</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Display--fs100fw700"</span>&gt;</span>Display--fs100fw700<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">h1</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Display--fs200fw700"</span>&gt;</span>Display--fs200fw700<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">h1</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Display--fs300fw700"</span>&gt;</span>Display--fs300fw700<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">h1</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Display--fs400fw700"</span>&gt;</span>Display--fs400fw700<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">h1</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Display--fs500fw700"</span>&gt;</span>Display--fs500fw700<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">h1</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Display--fs600fw700"</span>&gt;</span>Display--fs600fw700<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">h1</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Display--fs700fw700"</span>&gt;</span>Display--fs700fw700<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">h1</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Display--fs800fw700"</span>&gt;</span>Display--fs800fw700<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">h1</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Display--fs900fw700"</span>&gt;</span>Display--fs900fw700<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+
+
+
+<span class="hljs-tag">&lt;<span class="hljs-name">h1</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Display--fs100fw800"</span>&gt;</span>Display--fs100fw800<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">h1</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Display--fs200fw800"</span>&gt;</span>Display--fs200fw800<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">h1</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Display--fs300fw800"</span>&gt;</span>Display--fs300fw800<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">h1</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Display--fs400fw800"</span>&gt;</span>Display--fs400fw800<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">h1</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Display--fs500fw800"</span>&gt;</span>Display--fs500fw800<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">h1</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Display--fs600fw800"</span>&gt;</span>Display--fs600fw800<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">h1</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Display--fs700fw800"</span>&gt;</span>Display--fs700fw800<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">h1</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Display--fs800fw800"</span>&gt;</span>Display--fs800fw800<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">h1</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Display--fs900fw800"</span>&gt;</span>Display--fs900fw800<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+
+
+
+<span class="hljs-tag">&lt;<span class="hljs-name">h1</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Display--fs100fw900"</span>&gt;</span>Display--fs100fw900<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">h1</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Display--fs200fw900"</span>&gt;</span>Display--fs200fw900<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">h1</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Display--fs300fw900"</span>&gt;</span>Display--fs300fw900<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">h1</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Display--fs400fw900"</span>&gt;</span>Display--fs400fw900<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">h1</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Display--fs500fw900"</span>&gt;</span>Display--fs500fw900<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">h1</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Display--fs600fw900"</span>&gt;</span>Display--fs600fw900<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">h1</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Display--fs700fw900"</span>&gt;</span>Display--fs700fw900<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">h1</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Display--fs800fw900"</span>&gt;</span>Display--fs800fw900<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">h1</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"Display--fs900fw900"</span>&gt;</span>Display--fs900fw900<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+
+
+
+       </code>
+     </pre>
+     </div>
+    <!--END TEST INPUT-->
+     <div class="TestOutput">
+      <div class="TestThen "></div>
+      <div class="TestDescription">Then the <code>Display--[fsX][fwY]</code> CSS is applied to the <code>h1</code> element.</div>
+     <div class="TestRender">
+
+
+
+<h1 class="Display--fs100fw100">Display--fs100fw100</h1>
+
+<h1 class="Display--fs200fw100">Display--fs200fw100</h1>
+
+<h1 class="Display--fs300fw100">Display--fs300fw100</h1>
+
+<h1 class="Display--fs400fw100">Display--fs400fw100</h1>
+
+<h1 class="Display--fs500fw100">Display--fs500fw100</h1>
+
+<h1 class="Display--fs600fw100">Display--fs600fw100</h1>
+
+<h1 class="Display--fs700fw100">Display--fs700fw100</h1>
+
+<h1 class="Display--fs800fw100">Display--fs800fw100</h1>
+
+<h1 class="Display--fs900fw100">Display--fs900fw100</h1>
+
+
+
+<h1 class="Display--fs100fw200">Display--fs100fw200</h1>
+
+<h1 class="Display--fs200fw200">Display--fs200fw200</h1>
+
+<h1 class="Display--fs300fw200">Display--fs300fw200</h1>
+
+<h1 class="Display--fs400fw200">Display--fs400fw200</h1>
+
+<h1 class="Display--fs500fw200">Display--fs500fw200</h1>
+
+<h1 class="Display--fs600fw200">Display--fs600fw200</h1>
+
+<h1 class="Display--fs700fw200">Display--fs700fw200</h1>
+
+<h1 class="Display--fs800fw200">Display--fs800fw200</h1>
+
+<h1 class="Display--fs900fw200">Display--fs900fw200</h1>
+
+
+
+<h1 class="Display--fs100fw300">Display--fs100fw300</h1>
+
+<h1 class="Display--fs200fw300">Display--fs200fw300</h1>
+
+<h1 class="Display--fs300fw300">Display--fs300fw300</h1>
+
+<h1 class="Display--fs400fw300">Display--fs400fw300</h1>
+
+<h1 class="Display--fs500fw300">Display--fs500fw300</h1>
+
+<h1 class="Display--fs600fw300">Display--fs600fw300</h1>
+
+<h1 class="Display--fs700fw300">Display--fs700fw300</h1>
+
+<h1 class="Display--fs800fw300">Display--fs800fw300</h1>
+
+<h1 class="Display--fs900fw300">Display--fs900fw300</h1>
+
+
+
+<h1 class="Display--fs100fw400">Display--fs100fw400</h1>
+
+<h1 class="Display--fs200fw400">Display--fs200fw400</h1>
+
+<h1 class="Display--fs300fw400">Display--fs300fw400</h1>
+
+<h1 class="Display--fs400fw400">Display--fs400fw400</h1>
+
+<h1 class="Display--fs500fw400">Display--fs500fw400</h1>
+
+<h1 class="Display--fs600fw400">Display--fs600fw400</h1>
+
+<h1 class="Display--fs700fw400">Display--fs700fw400</h1>
+
+<h1 class="Display--fs800fw400">Display--fs800fw400</h1>
+
+<h1 class="Display--fs900fw400">Display--fs900fw400</h1>
+
+
+
+<h1 class="Display--fs100fw500">Display--fs100fw500</h1>
+
+<h1 class="Display--fs200fw500">Display--fs200fw500</h1>
+
+<h1 class="Display--fs300fw500">Display--fs300fw500</h1>
+
+<h1 class="Display--fs400fw500">Display--fs400fw500</h1>
+
+<h1 class="Display--fs500fw500">Display--fs500fw500</h1>
+
+<h1 class="Display--fs600fw500">Display--fs600fw500</h1>
+
+<h1 class="Display--fs700fw500">Display--fs700fw500</h1>
+
+<h1 class="Display--fs800fw500">Display--fs800fw500</h1>
+
+<h1 class="Display--fs900fw500">Display--fs900fw500</h1>
+
+
+
+<h1 class="Display--fs100fw600">Display--fs100fw600</h1>
+
+<h1 class="Display--fs200fw600">Display--fs200fw600</h1>
+
+<h1 class="Display--fs300fw600">Display--fs300fw600</h1>
+
+<h1 class="Display--fs400fw600">Display--fs400fw600</h1>
+
+<h1 class="Display--fs500fw600">Display--fs500fw600</h1>
+
+<h1 class="Display--fs600fw600">Display--fs600fw600</h1>
+
+<h1 class="Display--fs700fw600">Display--fs700fw600</h1>
+
+<h1 class="Display--fs800fw600">Display--fs800fw600</h1>
+
+<h1 class="Display--fs900fw600">Display--fs900fw600</h1>
+
+
+
+<h1 class="Display--fs100fw700">Display--fs100fw700</h1>
+
+<h1 class="Display--fs200fw700">Display--fs200fw700</h1>
+
+<h1 class="Display--fs300fw700">Display--fs300fw700</h1>
+
+<h1 class="Display--fs400fw700">Display--fs400fw700</h1>
+
+<h1 class="Display--fs500fw700">Display--fs500fw700</h1>
+
+<h1 class="Display--fs600fw700">Display--fs600fw700</h1>
+
+<h1 class="Display--fs700fw700">Display--fs700fw700</h1>
+
+<h1 class="Display--fs800fw700">Display--fs800fw700</h1>
+
+<h1 class="Display--fs900fw700">Display--fs900fw700</h1>
+
+
+
+<h1 class="Display--fs100fw800">Display--fs100fw800</h1>
+
+<h1 class="Display--fs200fw800">Display--fs200fw800</h1>
+
+<h1 class="Display--fs300fw800">Display--fs300fw800</h1>
+
+<h1 class="Display--fs400fw800">Display--fs400fw800</h1>
+
+<h1 class="Display--fs500fw800">Display--fs500fw800</h1>
+
+<h1 class="Display--fs600fw800">Display--fs600fw800</h1>
+
+<h1 class="Display--fs700fw800">Display--fs700fw800</h1>
+
+<h1 class="Display--fs800fw800">Display--fs800fw800</h1>
+
+<h1 class="Display--fs900fw800">Display--fs900fw800</h1>
+
+
+
+<h1 class="Display--fs100fw900">Display--fs100fw900</h1>
+
+<h1 class="Display--fs200fw900">Display--fs200fw900</h1>
+
+<h1 class="Display--fs300fw900">Display--fs300fw900</h1>
+
+<h1 class="Display--fs400fw900">Display--fs400fw900</h1>
+
+<h1 class="Display--fs500fw900">Display--fs500fw900</h1>
+
+<h1 class="Display--fs600fw900">Display--fs600fw900</h1>
+
+<h1 class="Display--fs700fw900">Display--fs700fw900</h1>
+
+<h1 class="Display--fs800fw900">Display--fs800fw900</h1>
+
+<h1 class="Display--fs900fw900">Display--fs900fw900</h1>
+
+
+
+      </div>      
+    </div>
+  </div>
+
+
+
+</body></html>
