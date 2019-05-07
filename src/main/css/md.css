@@ -1,7 +1,4 @@
 @import "./license";
-@import "./sm";
-@import "./md";
-@import "./lg";
 @import "@superflycss/variables-dimension";
 
 :root {
@@ -20,8 +17,10 @@
   --Display-text-color: inherit;
 }
 
+@media (--md-viewport) {
+
 @each $displaySize in 0, 50, 100, 200, 300, 400, 500, 600, 700, 800, 900 {
-    .Display--fs$(displaySize) {
+    .md-Display--fs$(displaySize) {
       color: var(--Display-text-color);
       font-size: var(--display-size-$(displaySize));
        }
@@ -30,10 +29,11 @@
 
 @each $displaySize in 0, 50, 100, 200, 300, 400, 500, 600, 700, 800, 900 {
   @each $fontWeight in 100, 200, 300, 400, 500, 600, 700, 800, 900 {
-    .Display--fs$(displaySize)fw$(fontWeight) {
+    .md-Display--fs$(displaySize)fw$(fontWeight) {
       color: var(--Display-text-color);
       font-size: var(--display-size-$(displaySize));
       font-weight: $(fontWeight);
        }
     }
+}
 }

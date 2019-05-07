@@ -1047,6 +1047,1665 @@ input[type="search"] {
 
 /*! bootstrap v4.0.0-alpha | MIT License | https://github.com/twbs/bootstrap/blob/master/LICENSE */
 
+/*! superflycss/variables-dimension | MIT License | https://github.com/superflycss/variables-dimension/blob/master/LICENSE.md */
+
+/*! bootstrap v4.0.0-alpha | MIT License | https://github.com/twbs/bootstrap/blob/master/LICENSE */
+
+/*
+=======================================
+ DIMENSION VARIABLES
+=======================================
+ 0:  Spacers.
+ 1:  Borders.
+ 2:  Z-Index
+ 3:  Default Media Breakpoints
+================================
+*/
+
+/* 0 */
+
+/* 1 */
+
+/* 2 */
+
+/* 3 */
+
+@media (min-width: 576px) {
+    .sm-Display--fs0 {
+      color: inherit;
+      font-size: 2.5rem;
+       }
+    .sm-Display--fs50 {
+      color: inherit;
+      font-size: 3.0rem;
+       }
+    .sm-Display--fs100 {
+      color: inherit;
+      font-size: 3.5rem;
+       }
+    .sm-Display--fs200 {
+      color: inherit;
+      font-size: 4.0rem;
+       }
+    .sm-Display--fs300 {
+      color: inherit;
+      font-size: 4.5rem;
+       }
+    .sm-Display--fs400 {
+      color: inherit;
+      font-size: 5.0rem;
+       }
+    .sm-Display--fs500 {
+      color: inherit;
+      font-size: 5.5rem;
+       }
+    .sm-Display--fs600 {
+      color: inherit;
+      font-size: 6.0rem;
+       }
+    .sm-Display--fs700 {
+      color: inherit;
+      font-size: 6.5rem;
+       }
+    .sm-Display--fs800 {
+      color: inherit;
+      font-size: 7.0rem;
+       }
+    .sm-Display--fs900 {
+      color: inherit;
+      font-size: 7.5rem;
+       }
+    .sm-Display--fs0fw100 {
+      color: inherit;
+      font-size: 2.5rem;
+      font-weight: 100;
+       }
+    .sm-Display--fs0fw200 {
+      color: inherit;
+      font-size: 2.5rem;
+      font-weight: 200;
+       }
+    .sm-Display--fs0fw300 {
+      color: inherit;
+      font-size: 2.5rem;
+      font-weight: 300;
+       }
+    .sm-Display--fs0fw400 {
+      color: inherit;
+      font-size: 2.5rem;
+      font-weight: 400;
+       }
+    .sm-Display--fs0fw500 {
+      color: inherit;
+      font-size: 2.5rem;
+      font-weight: 500;
+       }
+    .sm-Display--fs0fw600 {
+      color: inherit;
+      font-size: 2.5rem;
+      font-weight: 600;
+       }
+    .sm-Display--fs0fw700 {
+      color: inherit;
+      font-size: 2.5rem;
+      font-weight: 700;
+       }
+    .sm-Display--fs0fw800 {
+      color: inherit;
+      font-size: 2.5rem;
+      font-weight: 800;
+       }
+    .sm-Display--fs0fw900 {
+      color: inherit;
+      font-size: 2.5rem;
+      font-weight: 900;
+       }
+    .sm-Display--fs50fw100 {
+      color: inherit;
+      font-size: 3.0rem;
+      font-weight: 100;
+       }
+    .sm-Display--fs50fw200 {
+      color: inherit;
+      font-size: 3.0rem;
+      font-weight: 200;
+       }
+    .sm-Display--fs50fw300 {
+      color: inherit;
+      font-size: 3.0rem;
+      font-weight: 300;
+       }
+    .sm-Display--fs50fw400 {
+      color: inherit;
+      font-size: 3.0rem;
+      font-weight: 400;
+       }
+    .sm-Display--fs50fw500 {
+      color: inherit;
+      font-size: 3.0rem;
+      font-weight: 500;
+       }
+    .sm-Display--fs50fw600 {
+      color: inherit;
+      font-size: 3.0rem;
+      font-weight: 600;
+       }
+    .sm-Display--fs50fw700 {
+      color: inherit;
+      font-size: 3.0rem;
+      font-weight: 700;
+       }
+    .sm-Display--fs50fw800 {
+      color: inherit;
+      font-size: 3.0rem;
+      font-weight: 800;
+       }
+    .sm-Display--fs50fw900 {
+      color: inherit;
+      font-size: 3.0rem;
+      font-weight: 900;
+       }
+    .sm-Display--fs100fw100 {
+      color: inherit;
+      font-size: 3.5rem;
+      font-weight: 100;
+       }
+    .sm-Display--fs100fw200 {
+      color: inherit;
+      font-size: 3.5rem;
+      font-weight: 200;
+       }
+    .sm-Display--fs100fw300 {
+      color: inherit;
+      font-size: 3.5rem;
+      font-weight: 300;
+       }
+    .sm-Display--fs100fw400 {
+      color: inherit;
+      font-size: 3.5rem;
+      font-weight: 400;
+       }
+    .sm-Display--fs100fw500 {
+      color: inherit;
+      font-size: 3.5rem;
+      font-weight: 500;
+       }
+    .sm-Display--fs100fw600 {
+      color: inherit;
+      font-size: 3.5rem;
+      font-weight: 600;
+       }
+    .sm-Display--fs100fw700 {
+      color: inherit;
+      font-size: 3.5rem;
+      font-weight: 700;
+       }
+    .sm-Display--fs100fw800 {
+      color: inherit;
+      font-size: 3.5rem;
+      font-weight: 800;
+       }
+    .sm-Display--fs100fw900 {
+      color: inherit;
+      font-size: 3.5rem;
+      font-weight: 900;
+       }
+    .sm-Display--fs200fw100 {
+      color: inherit;
+      font-size: 4.0rem;
+      font-weight: 100;
+       }
+    .sm-Display--fs200fw200 {
+      color: inherit;
+      font-size: 4.0rem;
+      font-weight: 200;
+       }
+    .sm-Display--fs200fw300 {
+      color: inherit;
+      font-size: 4.0rem;
+      font-weight: 300;
+       }
+    .sm-Display--fs200fw400 {
+      color: inherit;
+      font-size: 4.0rem;
+      font-weight: 400;
+       }
+    .sm-Display--fs200fw500 {
+      color: inherit;
+      font-size: 4.0rem;
+      font-weight: 500;
+       }
+    .sm-Display--fs200fw600 {
+      color: inherit;
+      font-size: 4.0rem;
+      font-weight: 600;
+       }
+    .sm-Display--fs200fw700 {
+      color: inherit;
+      font-size: 4.0rem;
+      font-weight: 700;
+       }
+    .sm-Display--fs200fw800 {
+      color: inherit;
+      font-size: 4.0rem;
+      font-weight: 800;
+       }
+    .sm-Display--fs200fw900 {
+      color: inherit;
+      font-size: 4.0rem;
+      font-weight: 900;
+       }
+    .sm-Display--fs300fw100 {
+      color: inherit;
+      font-size: 4.5rem;
+      font-weight: 100;
+       }
+    .sm-Display--fs300fw200 {
+      color: inherit;
+      font-size: 4.5rem;
+      font-weight: 200;
+       }
+    .sm-Display--fs300fw300 {
+      color: inherit;
+      font-size: 4.5rem;
+      font-weight: 300;
+       }
+    .sm-Display--fs300fw400 {
+      color: inherit;
+      font-size: 4.5rem;
+      font-weight: 400;
+       }
+    .sm-Display--fs300fw500 {
+      color: inherit;
+      font-size: 4.5rem;
+      font-weight: 500;
+       }
+    .sm-Display--fs300fw600 {
+      color: inherit;
+      font-size: 4.5rem;
+      font-weight: 600;
+       }
+    .sm-Display--fs300fw700 {
+      color: inherit;
+      font-size: 4.5rem;
+      font-weight: 700;
+       }
+    .sm-Display--fs300fw800 {
+      color: inherit;
+      font-size: 4.5rem;
+      font-weight: 800;
+       }
+    .sm-Display--fs300fw900 {
+      color: inherit;
+      font-size: 4.5rem;
+      font-weight: 900;
+       }
+    .sm-Display--fs400fw100 {
+      color: inherit;
+      font-size: 5.0rem;
+      font-weight: 100;
+       }
+    .sm-Display--fs400fw200 {
+      color: inherit;
+      font-size: 5.0rem;
+      font-weight: 200;
+       }
+    .sm-Display--fs400fw300 {
+      color: inherit;
+      font-size: 5.0rem;
+      font-weight: 300;
+       }
+    .sm-Display--fs400fw400 {
+      color: inherit;
+      font-size: 5.0rem;
+      font-weight: 400;
+       }
+    .sm-Display--fs400fw500 {
+      color: inherit;
+      font-size: 5.0rem;
+      font-weight: 500;
+       }
+    .sm-Display--fs400fw600 {
+      color: inherit;
+      font-size: 5.0rem;
+      font-weight: 600;
+       }
+    .sm-Display--fs400fw700 {
+      color: inherit;
+      font-size: 5.0rem;
+      font-weight: 700;
+       }
+    .sm-Display--fs400fw800 {
+      color: inherit;
+      font-size: 5.0rem;
+      font-weight: 800;
+       }
+    .sm-Display--fs400fw900 {
+      color: inherit;
+      font-size: 5.0rem;
+      font-weight: 900;
+       }
+    .sm-Display--fs500fw100 {
+      color: inherit;
+      font-size: 5.5rem;
+      font-weight: 100;
+       }
+    .sm-Display--fs500fw200 {
+      color: inherit;
+      font-size: 5.5rem;
+      font-weight: 200;
+       }
+    .sm-Display--fs500fw300 {
+      color: inherit;
+      font-size: 5.5rem;
+      font-weight: 300;
+       }
+    .sm-Display--fs500fw400 {
+      color: inherit;
+      font-size: 5.5rem;
+      font-weight: 400;
+       }
+    .sm-Display--fs500fw500 {
+      color: inherit;
+      font-size: 5.5rem;
+      font-weight: 500;
+       }
+    .sm-Display--fs500fw600 {
+      color: inherit;
+      font-size: 5.5rem;
+      font-weight: 600;
+       }
+    .sm-Display--fs500fw700 {
+      color: inherit;
+      font-size: 5.5rem;
+      font-weight: 700;
+       }
+    .sm-Display--fs500fw800 {
+      color: inherit;
+      font-size: 5.5rem;
+      font-weight: 800;
+       }
+    .sm-Display--fs500fw900 {
+      color: inherit;
+      font-size: 5.5rem;
+      font-weight: 900;
+       }
+    .sm-Display--fs600fw100 {
+      color: inherit;
+      font-size: 6.0rem;
+      font-weight: 100;
+       }
+    .sm-Display--fs600fw200 {
+      color: inherit;
+      font-size: 6.0rem;
+      font-weight: 200;
+       }
+    .sm-Display--fs600fw300 {
+      color: inherit;
+      font-size: 6.0rem;
+      font-weight: 300;
+       }
+    .sm-Display--fs600fw400 {
+      color: inherit;
+      font-size: 6.0rem;
+      font-weight: 400;
+       }
+    .sm-Display--fs600fw500 {
+      color: inherit;
+      font-size: 6.0rem;
+      font-weight: 500;
+       }
+    .sm-Display--fs600fw600 {
+      color: inherit;
+      font-size: 6.0rem;
+      font-weight: 600;
+       }
+    .sm-Display--fs600fw700 {
+      color: inherit;
+      font-size: 6.0rem;
+      font-weight: 700;
+       }
+    .sm-Display--fs600fw800 {
+      color: inherit;
+      font-size: 6.0rem;
+      font-weight: 800;
+       }
+    .sm-Display--fs600fw900 {
+      color: inherit;
+      font-size: 6.0rem;
+      font-weight: 900;
+       }
+    .sm-Display--fs700fw100 {
+      color: inherit;
+      font-size: 6.5rem;
+      font-weight: 100;
+       }
+    .sm-Display--fs700fw200 {
+      color: inherit;
+      font-size: 6.5rem;
+      font-weight: 200;
+       }
+    .sm-Display--fs700fw300 {
+      color: inherit;
+      font-size: 6.5rem;
+      font-weight: 300;
+       }
+    .sm-Display--fs700fw400 {
+      color: inherit;
+      font-size: 6.5rem;
+      font-weight: 400;
+       }
+    .sm-Display--fs700fw500 {
+      color: inherit;
+      font-size: 6.5rem;
+      font-weight: 500;
+       }
+    .sm-Display--fs700fw600 {
+      color: inherit;
+      font-size: 6.5rem;
+      font-weight: 600;
+       }
+    .sm-Display--fs700fw700 {
+      color: inherit;
+      font-size: 6.5rem;
+      font-weight: 700;
+       }
+    .sm-Display--fs700fw800 {
+      color: inherit;
+      font-size: 6.5rem;
+      font-weight: 800;
+       }
+    .sm-Display--fs700fw900 {
+      color: inherit;
+      font-size: 6.5rem;
+      font-weight: 900;
+       }
+    .sm-Display--fs800fw100 {
+      color: inherit;
+      font-size: 7.0rem;
+      font-weight: 100;
+       }
+    .sm-Display--fs800fw200 {
+      color: inherit;
+      font-size: 7.0rem;
+      font-weight: 200;
+       }
+    .sm-Display--fs800fw300 {
+      color: inherit;
+      font-size: 7.0rem;
+      font-weight: 300;
+       }
+    .sm-Display--fs800fw400 {
+      color: inherit;
+      font-size: 7.0rem;
+      font-weight: 400;
+       }
+    .sm-Display--fs800fw500 {
+      color: inherit;
+      font-size: 7.0rem;
+      font-weight: 500;
+       }
+    .sm-Display--fs800fw600 {
+      color: inherit;
+      font-size: 7.0rem;
+      font-weight: 600;
+       }
+    .sm-Display--fs800fw700 {
+      color: inherit;
+      font-size: 7.0rem;
+      font-weight: 700;
+       }
+    .sm-Display--fs800fw800 {
+      color: inherit;
+      font-size: 7.0rem;
+      font-weight: 800;
+       }
+    .sm-Display--fs800fw900 {
+      color: inherit;
+      font-size: 7.0rem;
+      font-weight: 900;
+       }
+    .sm-Display--fs900fw100 {
+      color: inherit;
+      font-size: 7.5rem;
+      font-weight: 100;
+       }
+    .sm-Display--fs900fw200 {
+      color: inherit;
+      font-size: 7.5rem;
+      font-weight: 200;
+       }
+    .sm-Display--fs900fw300 {
+      color: inherit;
+      font-size: 7.5rem;
+      font-weight: 300;
+       }
+    .sm-Display--fs900fw400 {
+      color: inherit;
+      font-size: 7.5rem;
+      font-weight: 400;
+       }
+    .sm-Display--fs900fw500 {
+      color: inherit;
+      font-size: 7.5rem;
+      font-weight: 500;
+       }
+    .sm-Display--fs900fw600 {
+      color: inherit;
+      font-size: 7.5rem;
+      font-weight: 600;
+       }
+    .sm-Display--fs900fw700 {
+      color: inherit;
+      font-size: 7.5rem;
+      font-weight: 700;
+       }
+    .sm-Display--fs900fw800 {
+      color: inherit;
+      font-size: 7.5rem;
+      font-weight: 800;
+       }
+    .sm-Display--fs900fw900 {
+      color: inherit;
+      font-size: 7.5rem;
+      font-weight: 900;
+       }
+}
+
+@media (min-width: 768px) {
+    .md-Display--fs0 {
+      color: inherit;
+      font-size: 2.5rem;
+       }
+    .md-Display--fs50 {
+      color: inherit;
+      font-size: 3.0rem;
+       }
+    .md-Display--fs100 {
+      color: inherit;
+      font-size: 3.5rem;
+       }
+    .md-Display--fs200 {
+      color: inherit;
+      font-size: 4.0rem;
+       }
+    .md-Display--fs300 {
+      color: inherit;
+      font-size: 4.5rem;
+       }
+    .md-Display--fs400 {
+      color: inherit;
+      font-size: 5.0rem;
+       }
+    .md-Display--fs500 {
+      color: inherit;
+      font-size: 5.5rem;
+       }
+    .md-Display--fs600 {
+      color: inherit;
+      font-size: 6.0rem;
+       }
+    .md-Display--fs700 {
+      color: inherit;
+      font-size: 6.5rem;
+       }
+    .md-Display--fs800 {
+      color: inherit;
+      font-size: 7.0rem;
+       }
+    .md-Display--fs900 {
+      color: inherit;
+      font-size: 7.5rem;
+       }
+    .md-Display--fs0fw100 {
+      color: inherit;
+      font-size: 2.5rem;
+      font-weight: 100;
+       }
+    .md-Display--fs0fw200 {
+      color: inherit;
+      font-size: 2.5rem;
+      font-weight: 200;
+       }
+    .md-Display--fs0fw300 {
+      color: inherit;
+      font-size: 2.5rem;
+      font-weight: 300;
+       }
+    .md-Display--fs0fw400 {
+      color: inherit;
+      font-size: 2.5rem;
+      font-weight: 400;
+       }
+    .md-Display--fs0fw500 {
+      color: inherit;
+      font-size: 2.5rem;
+      font-weight: 500;
+       }
+    .md-Display--fs0fw600 {
+      color: inherit;
+      font-size: 2.5rem;
+      font-weight: 600;
+       }
+    .md-Display--fs0fw700 {
+      color: inherit;
+      font-size: 2.5rem;
+      font-weight: 700;
+       }
+    .md-Display--fs0fw800 {
+      color: inherit;
+      font-size: 2.5rem;
+      font-weight: 800;
+       }
+    .md-Display--fs0fw900 {
+      color: inherit;
+      font-size: 2.5rem;
+      font-weight: 900;
+       }
+    .md-Display--fs50fw100 {
+      color: inherit;
+      font-size: 3.0rem;
+      font-weight: 100;
+       }
+    .md-Display--fs50fw200 {
+      color: inherit;
+      font-size: 3.0rem;
+      font-weight: 200;
+       }
+    .md-Display--fs50fw300 {
+      color: inherit;
+      font-size: 3.0rem;
+      font-weight: 300;
+       }
+    .md-Display--fs50fw400 {
+      color: inherit;
+      font-size: 3.0rem;
+      font-weight: 400;
+       }
+    .md-Display--fs50fw500 {
+      color: inherit;
+      font-size: 3.0rem;
+      font-weight: 500;
+       }
+    .md-Display--fs50fw600 {
+      color: inherit;
+      font-size: 3.0rem;
+      font-weight: 600;
+       }
+    .md-Display--fs50fw700 {
+      color: inherit;
+      font-size: 3.0rem;
+      font-weight: 700;
+       }
+    .md-Display--fs50fw800 {
+      color: inherit;
+      font-size: 3.0rem;
+      font-weight: 800;
+       }
+    .md-Display--fs50fw900 {
+      color: inherit;
+      font-size: 3.0rem;
+      font-weight: 900;
+       }
+    .md-Display--fs100fw100 {
+      color: inherit;
+      font-size: 3.5rem;
+      font-weight: 100;
+       }
+    .md-Display--fs100fw200 {
+      color: inherit;
+      font-size: 3.5rem;
+      font-weight: 200;
+       }
+    .md-Display--fs100fw300 {
+      color: inherit;
+      font-size: 3.5rem;
+      font-weight: 300;
+       }
+    .md-Display--fs100fw400 {
+      color: inherit;
+      font-size: 3.5rem;
+      font-weight: 400;
+       }
+    .md-Display--fs100fw500 {
+      color: inherit;
+      font-size: 3.5rem;
+      font-weight: 500;
+       }
+    .md-Display--fs100fw600 {
+      color: inherit;
+      font-size: 3.5rem;
+      font-weight: 600;
+       }
+    .md-Display--fs100fw700 {
+      color: inherit;
+      font-size: 3.5rem;
+      font-weight: 700;
+       }
+    .md-Display--fs100fw800 {
+      color: inherit;
+      font-size: 3.5rem;
+      font-weight: 800;
+       }
+    .md-Display--fs100fw900 {
+      color: inherit;
+      font-size: 3.5rem;
+      font-weight: 900;
+       }
+    .md-Display--fs200fw100 {
+      color: inherit;
+      font-size: 4.0rem;
+      font-weight: 100;
+       }
+    .md-Display--fs200fw200 {
+      color: inherit;
+      font-size: 4.0rem;
+      font-weight: 200;
+       }
+    .md-Display--fs200fw300 {
+      color: inherit;
+      font-size: 4.0rem;
+      font-weight: 300;
+       }
+    .md-Display--fs200fw400 {
+      color: inherit;
+      font-size: 4.0rem;
+      font-weight: 400;
+       }
+    .md-Display--fs200fw500 {
+      color: inherit;
+      font-size: 4.0rem;
+      font-weight: 500;
+       }
+    .md-Display--fs200fw600 {
+      color: inherit;
+      font-size: 4.0rem;
+      font-weight: 600;
+       }
+    .md-Display--fs200fw700 {
+      color: inherit;
+      font-size: 4.0rem;
+      font-weight: 700;
+       }
+    .md-Display--fs200fw800 {
+      color: inherit;
+      font-size: 4.0rem;
+      font-weight: 800;
+       }
+    .md-Display--fs200fw900 {
+      color: inherit;
+      font-size: 4.0rem;
+      font-weight: 900;
+       }
+    .md-Display--fs300fw100 {
+      color: inherit;
+      font-size: 4.5rem;
+      font-weight: 100;
+       }
+    .md-Display--fs300fw200 {
+      color: inherit;
+      font-size: 4.5rem;
+      font-weight: 200;
+       }
+    .md-Display--fs300fw300 {
+      color: inherit;
+      font-size: 4.5rem;
+      font-weight: 300;
+       }
+    .md-Display--fs300fw400 {
+      color: inherit;
+      font-size: 4.5rem;
+      font-weight: 400;
+       }
+    .md-Display--fs300fw500 {
+      color: inherit;
+      font-size: 4.5rem;
+      font-weight: 500;
+       }
+    .md-Display--fs300fw600 {
+      color: inherit;
+      font-size: 4.5rem;
+      font-weight: 600;
+       }
+    .md-Display--fs300fw700 {
+      color: inherit;
+      font-size: 4.5rem;
+      font-weight: 700;
+       }
+    .md-Display--fs300fw800 {
+      color: inherit;
+      font-size: 4.5rem;
+      font-weight: 800;
+       }
+    .md-Display--fs300fw900 {
+      color: inherit;
+      font-size: 4.5rem;
+      font-weight: 900;
+       }
+    .md-Display--fs400fw100 {
+      color: inherit;
+      font-size: 5.0rem;
+      font-weight: 100;
+       }
+    .md-Display--fs400fw200 {
+      color: inherit;
+      font-size: 5.0rem;
+      font-weight: 200;
+       }
+    .md-Display--fs400fw300 {
+      color: inherit;
+      font-size: 5.0rem;
+      font-weight: 300;
+       }
+    .md-Display--fs400fw400 {
+      color: inherit;
+      font-size: 5.0rem;
+      font-weight: 400;
+       }
+    .md-Display--fs400fw500 {
+      color: inherit;
+      font-size: 5.0rem;
+      font-weight: 500;
+       }
+    .md-Display--fs400fw600 {
+      color: inherit;
+      font-size: 5.0rem;
+      font-weight: 600;
+       }
+    .md-Display--fs400fw700 {
+      color: inherit;
+      font-size: 5.0rem;
+      font-weight: 700;
+       }
+    .md-Display--fs400fw800 {
+      color: inherit;
+      font-size: 5.0rem;
+      font-weight: 800;
+       }
+    .md-Display--fs400fw900 {
+      color: inherit;
+      font-size: 5.0rem;
+      font-weight: 900;
+       }
+    .md-Display--fs500fw100 {
+      color: inherit;
+      font-size: 5.5rem;
+      font-weight: 100;
+       }
+    .md-Display--fs500fw200 {
+      color: inherit;
+      font-size: 5.5rem;
+      font-weight: 200;
+       }
+    .md-Display--fs500fw300 {
+      color: inherit;
+      font-size: 5.5rem;
+      font-weight: 300;
+       }
+    .md-Display--fs500fw400 {
+      color: inherit;
+      font-size: 5.5rem;
+      font-weight: 400;
+       }
+    .md-Display--fs500fw500 {
+      color: inherit;
+      font-size: 5.5rem;
+      font-weight: 500;
+       }
+    .md-Display--fs500fw600 {
+      color: inherit;
+      font-size: 5.5rem;
+      font-weight: 600;
+       }
+    .md-Display--fs500fw700 {
+      color: inherit;
+      font-size: 5.5rem;
+      font-weight: 700;
+       }
+    .md-Display--fs500fw800 {
+      color: inherit;
+      font-size: 5.5rem;
+      font-weight: 800;
+       }
+    .md-Display--fs500fw900 {
+      color: inherit;
+      font-size: 5.5rem;
+      font-weight: 900;
+       }
+    .md-Display--fs600fw100 {
+      color: inherit;
+      font-size: 6.0rem;
+      font-weight: 100;
+       }
+    .md-Display--fs600fw200 {
+      color: inherit;
+      font-size: 6.0rem;
+      font-weight: 200;
+       }
+    .md-Display--fs600fw300 {
+      color: inherit;
+      font-size: 6.0rem;
+      font-weight: 300;
+       }
+    .md-Display--fs600fw400 {
+      color: inherit;
+      font-size: 6.0rem;
+      font-weight: 400;
+       }
+    .md-Display--fs600fw500 {
+      color: inherit;
+      font-size: 6.0rem;
+      font-weight: 500;
+       }
+    .md-Display--fs600fw600 {
+      color: inherit;
+      font-size: 6.0rem;
+      font-weight: 600;
+       }
+    .md-Display--fs600fw700 {
+      color: inherit;
+      font-size: 6.0rem;
+      font-weight: 700;
+       }
+    .md-Display--fs600fw800 {
+      color: inherit;
+      font-size: 6.0rem;
+      font-weight: 800;
+       }
+    .md-Display--fs600fw900 {
+      color: inherit;
+      font-size: 6.0rem;
+      font-weight: 900;
+       }
+    .md-Display--fs700fw100 {
+      color: inherit;
+      font-size: 6.5rem;
+      font-weight: 100;
+       }
+    .md-Display--fs700fw200 {
+      color: inherit;
+      font-size: 6.5rem;
+      font-weight: 200;
+       }
+    .md-Display--fs700fw300 {
+      color: inherit;
+      font-size: 6.5rem;
+      font-weight: 300;
+       }
+    .md-Display--fs700fw400 {
+      color: inherit;
+      font-size: 6.5rem;
+      font-weight: 400;
+       }
+    .md-Display--fs700fw500 {
+      color: inherit;
+      font-size: 6.5rem;
+      font-weight: 500;
+       }
+    .md-Display--fs700fw600 {
+      color: inherit;
+      font-size: 6.5rem;
+      font-weight: 600;
+       }
+    .md-Display--fs700fw700 {
+      color: inherit;
+      font-size: 6.5rem;
+      font-weight: 700;
+       }
+    .md-Display--fs700fw800 {
+      color: inherit;
+      font-size: 6.5rem;
+      font-weight: 800;
+       }
+    .md-Display--fs700fw900 {
+      color: inherit;
+      font-size: 6.5rem;
+      font-weight: 900;
+       }
+    .md-Display--fs800fw100 {
+      color: inherit;
+      font-size: 7.0rem;
+      font-weight: 100;
+       }
+    .md-Display--fs800fw200 {
+      color: inherit;
+      font-size: 7.0rem;
+      font-weight: 200;
+       }
+    .md-Display--fs800fw300 {
+      color: inherit;
+      font-size: 7.0rem;
+      font-weight: 300;
+       }
+    .md-Display--fs800fw400 {
+      color: inherit;
+      font-size: 7.0rem;
+      font-weight: 400;
+       }
+    .md-Display--fs800fw500 {
+      color: inherit;
+      font-size: 7.0rem;
+      font-weight: 500;
+       }
+    .md-Display--fs800fw600 {
+      color: inherit;
+      font-size: 7.0rem;
+      font-weight: 600;
+       }
+    .md-Display--fs800fw700 {
+      color: inherit;
+      font-size: 7.0rem;
+      font-weight: 700;
+       }
+    .md-Display--fs800fw800 {
+      color: inherit;
+      font-size: 7.0rem;
+      font-weight: 800;
+       }
+    .md-Display--fs800fw900 {
+      color: inherit;
+      font-size: 7.0rem;
+      font-weight: 900;
+       }
+    .md-Display--fs900fw100 {
+      color: inherit;
+      font-size: 7.5rem;
+      font-weight: 100;
+       }
+    .md-Display--fs900fw200 {
+      color: inherit;
+      font-size: 7.5rem;
+      font-weight: 200;
+       }
+    .md-Display--fs900fw300 {
+      color: inherit;
+      font-size: 7.5rem;
+      font-weight: 300;
+       }
+    .md-Display--fs900fw400 {
+      color: inherit;
+      font-size: 7.5rem;
+      font-weight: 400;
+       }
+    .md-Display--fs900fw500 {
+      color: inherit;
+      font-size: 7.5rem;
+      font-weight: 500;
+       }
+    .md-Display--fs900fw600 {
+      color: inherit;
+      font-size: 7.5rem;
+      font-weight: 600;
+       }
+    .md-Display--fs900fw700 {
+      color: inherit;
+      font-size: 7.5rem;
+      font-weight: 700;
+       }
+    .md-Display--fs900fw800 {
+      color: inherit;
+      font-size: 7.5rem;
+      font-weight: 800;
+       }
+    .md-Display--fs900fw900 {
+      color: inherit;
+      font-size: 7.5rem;
+      font-weight: 900;
+       }
+}
+
+@media (min-width: 992px) {
+    .lg-Display--fs0 {
+      color: inherit;
+      font-size: 2.5rem;
+       }
+    .lg-Display--fs50 {
+      color: inherit;
+      font-size: 3.0rem;
+       }
+    .lg-Display--fs100 {
+      color: inherit;
+      font-size: 3.5rem;
+       }
+    .lg-Display--fs200 {
+      color: inherit;
+      font-size: 4.0rem;
+       }
+    .lg-Display--fs300 {
+      color: inherit;
+      font-size: 4.5rem;
+       }
+    .lg-Display--fs400 {
+      color: inherit;
+      font-size: 5.0rem;
+       }
+    .lg-Display--fs500 {
+      color: inherit;
+      font-size: 5.5rem;
+       }
+    .lg-Display--fs600 {
+      color: inherit;
+      font-size: 6.0rem;
+       }
+    .lg-Display--fs700 {
+      color: inherit;
+      font-size: 6.5rem;
+       }
+    .lg-Display--fs800 {
+      color: inherit;
+      font-size: 7.0rem;
+       }
+    .lg-Display--fs900 {
+      color: inherit;
+      font-size: 7.5rem;
+       }
+    .lg-Display--fs0fw100 {
+      color: inherit;
+      font-size: 2.5rem;
+      font-weight: 100;
+       }
+    .lg-Display--fs0fw200 {
+      color: inherit;
+      font-size: 2.5rem;
+      font-weight: 200;
+       }
+    .lg-Display--fs0fw300 {
+      color: inherit;
+      font-size: 2.5rem;
+      font-weight: 300;
+       }
+    .lg-Display--fs0fw400 {
+      color: inherit;
+      font-size: 2.5rem;
+      font-weight: 400;
+       }
+    .lg-Display--fs0fw500 {
+      color: inherit;
+      font-size: 2.5rem;
+      font-weight: 500;
+       }
+    .lg-Display--fs0fw600 {
+      color: inherit;
+      font-size: 2.5rem;
+      font-weight: 600;
+       }
+    .lg-Display--fs0fw700 {
+      color: inherit;
+      font-size: 2.5rem;
+      font-weight: 700;
+       }
+    .lg-Display--fs0fw800 {
+      color: inherit;
+      font-size: 2.5rem;
+      font-weight: 800;
+       }
+    .lg-Display--fs0fw900 {
+      color: inherit;
+      font-size: 2.5rem;
+      font-weight: 900;
+       }
+    .lg-Display--fs50fw100 {
+      color: inherit;
+      font-size: 3.0rem;
+      font-weight: 100;
+       }
+    .lg-Display--fs50fw200 {
+      color: inherit;
+      font-size: 3.0rem;
+      font-weight: 200;
+       }
+    .lg-Display--fs50fw300 {
+      color: inherit;
+      font-size: 3.0rem;
+      font-weight: 300;
+       }
+    .lg-Display--fs50fw400 {
+      color: inherit;
+      font-size: 3.0rem;
+      font-weight: 400;
+       }
+    .lg-Display--fs50fw500 {
+      color: inherit;
+      font-size: 3.0rem;
+      font-weight: 500;
+       }
+    .lg-Display--fs50fw600 {
+      color: inherit;
+      font-size: 3.0rem;
+      font-weight: 600;
+       }
+    .lg-Display--fs50fw700 {
+      color: inherit;
+      font-size: 3.0rem;
+      font-weight: 700;
+       }
+    .lg-Display--fs50fw800 {
+      color: inherit;
+      font-size: 3.0rem;
+      font-weight: 800;
+       }
+    .lg-Display--fs50fw900 {
+      color: inherit;
+      font-size: 3.0rem;
+      font-weight: 900;
+       }
+    .lg-Display--fs100fw100 {
+      color: inherit;
+      font-size: 3.5rem;
+      font-weight: 100;
+       }
+    .lg-Display--fs100fw200 {
+      color: inherit;
+      font-size: 3.5rem;
+      font-weight: 200;
+       }
+    .lg-Display--fs100fw300 {
+      color: inherit;
+      font-size: 3.5rem;
+      font-weight: 300;
+       }
+    .lg-Display--fs100fw400 {
+      color: inherit;
+      font-size: 3.5rem;
+      font-weight: 400;
+       }
+    .lg-Display--fs100fw500 {
+      color: inherit;
+      font-size: 3.5rem;
+      font-weight: 500;
+       }
+    .lg-Display--fs100fw600 {
+      color: inherit;
+      font-size: 3.5rem;
+      font-weight: 600;
+       }
+    .lg-Display--fs100fw700 {
+      color: inherit;
+      font-size: 3.5rem;
+      font-weight: 700;
+       }
+    .lg-Display--fs100fw800 {
+      color: inherit;
+      font-size: 3.5rem;
+      font-weight: 800;
+       }
+    .lg-Display--fs100fw900 {
+      color: inherit;
+      font-size: 3.5rem;
+      font-weight: 900;
+       }
+    .lg-Display--fs200fw100 {
+      color: inherit;
+      font-size: 4.0rem;
+      font-weight: 100;
+       }
+    .lg-Display--fs200fw200 {
+      color: inherit;
+      font-size: 4.0rem;
+      font-weight: 200;
+       }
+    .lg-Display--fs200fw300 {
+      color: inherit;
+      font-size: 4.0rem;
+      font-weight: 300;
+       }
+    .lg-Display--fs200fw400 {
+      color: inherit;
+      font-size: 4.0rem;
+      font-weight: 400;
+       }
+    .lg-Display--fs200fw500 {
+      color: inherit;
+      font-size: 4.0rem;
+      font-weight: 500;
+       }
+    .lg-Display--fs200fw600 {
+      color: inherit;
+      font-size: 4.0rem;
+      font-weight: 600;
+       }
+    .lg-Display--fs200fw700 {
+      color: inherit;
+      font-size: 4.0rem;
+      font-weight: 700;
+       }
+    .lg-Display--fs200fw800 {
+      color: inherit;
+      font-size: 4.0rem;
+      font-weight: 800;
+       }
+    .lg-Display--fs200fw900 {
+      color: inherit;
+      font-size: 4.0rem;
+      font-weight: 900;
+       }
+    .lg-Display--fs300fw100 {
+      color: inherit;
+      font-size: 4.5rem;
+      font-weight: 100;
+       }
+    .lg-Display--fs300fw200 {
+      color: inherit;
+      font-size: 4.5rem;
+      font-weight: 200;
+       }
+    .lg-Display--fs300fw300 {
+      color: inherit;
+      font-size: 4.5rem;
+      font-weight: 300;
+       }
+    .lg-Display--fs300fw400 {
+      color: inherit;
+      font-size: 4.5rem;
+      font-weight: 400;
+       }
+    .lg-Display--fs300fw500 {
+      color: inherit;
+      font-size: 4.5rem;
+      font-weight: 500;
+       }
+    .lg-Display--fs300fw600 {
+      color: inherit;
+      font-size: 4.5rem;
+      font-weight: 600;
+       }
+    .lg-Display--fs300fw700 {
+      color: inherit;
+      font-size: 4.5rem;
+      font-weight: 700;
+       }
+    .lg-Display--fs300fw800 {
+      color: inherit;
+      font-size: 4.5rem;
+      font-weight: 800;
+       }
+    .lg-Display--fs300fw900 {
+      color: inherit;
+      font-size: 4.5rem;
+      font-weight: 900;
+       }
+    .lg-Display--fs400fw100 {
+      color: inherit;
+      font-size: 5.0rem;
+      font-weight: 100;
+       }
+    .lg-Display--fs400fw200 {
+      color: inherit;
+      font-size: 5.0rem;
+      font-weight: 200;
+       }
+    .lg-Display--fs400fw300 {
+      color: inherit;
+      font-size: 5.0rem;
+      font-weight: 300;
+       }
+    .lg-Display--fs400fw400 {
+      color: inherit;
+      font-size: 5.0rem;
+      font-weight: 400;
+       }
+    .lg-Display--fs400fw500 {
+      color: inherit;
+      font-size: 5.0rem;
+      font-weight: 500;
+       }
+    .lg-Display--fs400fw600 {
+      color: inherit;
+      font-size: 5.0rem;
+      font-weight: 600;
+       }
+    .lg-Display--fs400fw700 {
+      color: inherit;
+      font-size: 5.0rem;
+      font-weight: 700;
+       }
+    .lg-Display--fs400fw800 {
+      color: inherit;
+      font-size: 5.0rem;
+      font-weight: 800;
+       }
+    .lg-Display--fs400fw900 {
+      color: inherit;
+      font-size: 5.0rem;
+      font-weight: 900;
+       }
+    .lg-Display--fs500fw100 {
+      color: inherit;
+      font-size: 5.5rem;
+      font-weight: 100;
+       }
+    .lg-Display--fs500fw200 {
+      color: inherit;
+      font-size: 5.5rem;
+      font-weight: 200;
+       }
+    .lg-Display--fs500fw300 {
+      color: inherit;
+      font-size: 5.5rem;
+      font-weight: 300;
+       }
+    .lg-Display--fs500fw400 {
+      color: inherit;
+      font-size: 5.5rem;
+      font-weight: 400;
+       }
+    .lg-Display--fs500fw500 {
+      color: inherit;
+      font-size: 5.5rem;
+      font-weight: 500;
+       }
+    .lg-Display--fs500fw600 {
+      color: inherit;
+      font-size: 5.5rem;
+      font-weight: 600;
+       }
+    .lg-Display--fs500fw700 {
+      color: inherit;
+      font-size: 5.5rem;
+      font-weight: 700;
+       }
+    .lg-Display--fs500fw800 {
+      color: inherit;
+      font-size: 5.5rem;
+      font-weight: 800;
+       }
+    .lg-Display--fs500fw900 {
+      color: inherit;
+      font-size: 5.5rem;
+      font-weight: 900;
+       }
+    .lg-Display--fs600fw100 {
+      color: inherit;
+      font-size: 6.0rem;
+      font-weight: 100;
+       }
+    .lg-Display--fs600fw200 {
+      color: inherit;
+      font-size: 6.0rem;
+      font-weight: 200;
+       }
+    .lg-Display--fs600fw300 {
+      color: inherit;
+      font-size: 6.0rem;
+      font-weight: 300;
+       }
+    .lg-Display--fs600fw400 {
+      color: inherit;
+      font-size: 6.0rem;
+      font-weight: 400;
+       }
+    .lg-Display--fs600fw500 {
+      color: inherit;
+      font-size: 6.0rem;
+      font-weight: 500;
+       }
+    .lg-Display--fs600fw600 {
+      color: inherit;
+      font-size: 6.0rem;
+      font-weight: 600;
+       }
+    .lg-Display--fs600fw700 {
+      color: inherit;
+      font-size: 6.0rem;
+      font-weight: 700;
+       }
+    .lg-Display--fs600fw800 {
+      color: inherit;
+      font-size: 6.0rem;
+      font-weight: 800;
+       }
+    .lg-Display--fs600fw900 {
+      color: inherit;
+      font-size: 6.0rem;
+      font-weight: 900;
+       }
+    .lg-Display--fs700fw100 {
+      color: inherit;
+      font-size: 6.5rem;
+      font-weight: 100;
+       }
+    .lg-Display--fs700fw200 {
+      color: inherit;
+      font-size: 6.5rem;
+      font-weight: 200;
+       }
+    .lg-Display--fs700fw300 {
+      color: inherit;
+      font-size: 6.5rem;
+      font-weight: 300;
+       }
+    .lg-Display--fs700fw400 {
+      color: inherit;
+      font-size: 6.5rem;
+      font-weight: 400;
+       }
+    .lg-Display--fs700fw500 {
+      color: inherit;
+      font-size: 6.5rem;
+      font-weight: 500;
+       }
+    .lg-Display--fs700fw600 {
+      color: inherit;
+      font-size: 6.5rem;
+      font-weight: 600;
+       }
+    .lg-Display--fs700fw700 {
+      color: inherit;
+      font-size: 6.5rem;
+      font-weight: 700;
+       }
+    .lg-Display--fs700fw800 {
+      color: inherit;
+      font-size: 6.5rem;
+      font-weight: 800;
+       }
+    .lg-Display--fs700fw900 {
+      color: inherit;
+      font-size: 6.5rem;
+      font-weight: 900;
+       }
+    .lg-Display--fs800fw100 {
+      color: inherit;
+      font-size: 7.0rem;
+      font-weight: 100;
+       }
+    .lg-Display--fs800fw200 {
+      color: inherit;
+      font-size: 7.0rem;
+      font-weight: 200;
+       }
+    .lg-Display--fs800fw300 {
+      color: inherit;
+      font-size: 7.0rem;
+      font-weight: 300;
+       }
+    .lg-Display--fs800fw400 {
+      color: inherit;
+      font-size: 7.0rem;
+      font-weight: 400;
+       }
+    .lg-Display--fs800fw500 {
+      color: inherit;
+      font-size: 7.0rem;
+      font-weight: 500;
+       }
+    .lg-Display--fs800fw600 {
+      color: inherit;
+      font-size: 7.0rem;
+      font-weight: 600;
+       }
+    .lg-Display--fs800fw700 {
+      color: inherit;
+      font-size: 7.0rem;
+      font-weight: 700;
+       }
+    .lg-Display--fs800fw800 {
+      color: inherit;
+      font-size: 7.0rem;
+      font-weight: 800;
+       }
+    .lg-Display--fs800fw900 {
+      color: inherit;
+      font-size: 7.0rem;
+      font-weight: 900;
+       }
+    .lg-Display--fs900fw100 {
+      color: inherit;
+      font-size: 7.5rem;
+      font-weight: 100;
+       }
+    .lg-Display--fs900fw200 {
+      color: inherit;
+      font-size: 7.5rem;
+      font-weight: 200;
+       }
+    .lg-Display--fs900fw300 {
+      color: inherit;
+      font-size: 7.5rem;
+      font-weight: 300;
+       }
+    .lg-Display--fs900fw400 {
+      color: inherit;
+      font-size: 7.5rem;
+      font-weight: 400;
+       }
+    .lg-Display--fs900fw500 {
+      color: inherit;
+      font-size: 7.5rem;
+      font-weight: 500;
+       }
+    .lg-Display--fs900fw600 {
+      color: inherit;
+      font-size: 7.5rem;
+      font-weight: 600;
+       }
+    .lg-Display--fs900fw700 {
+      color: inherit;
+      font-size: 7.5rem;
+      font-weight: 700;
+       }
+    .lg-Display--fs900fw800 {
+      color: inherit;
+      font-size: 7.5rem;
+      font-weight: 800;
+       }
+    .lg-Display--fs900fw900 {
+      color: inherit;
+      font-size: 7.5rem;
+      font-weight: 900;
+       }
+}
+
+.Display--fs0 {
+      color: inherit;
+      font-size: 2.5rem;
+       }
+
+.Display--fs50 {
+      color: inherit;
+      font-size: 3.0rem;
+       }
+
 .Display--fs100 {
       color: inherit;
       font-size: 3.5rem;
@@ -1090,6 +2749,114 @@ input[type="search"] {
 .Display--fs900 {
       color: inherit;
       font-size: 7.5rem;
+       }
+
+.Display--fs0fw100 {
+      color: inherit;
+      font-size: 2.5rem;
+      font-weight: 100;
+       }
+
+.Display--fs0fw200 {
+      color: inherit;
+      font-size: 2.5rem;
+      font-weight: 200;
+       }
+
+.Display--fs0fw300 {
+      color: inherit;
+      font-size: 2.5rem;
+      font-weight: 300;
+       }
+
+.Display--fs0fw400 {
+      color: inherit;
+      font-size: 2.5rem;
+      font-weight: 400;
+       }
+
+.Display--fs0fw500 {
+      color: inherit;
+      font-size: 2.5rem;
+      font-weight: 500;
+       }
+
+.Display--fs0fw600 {
+      color: inherit;
+      font-size: 2.5rem;
+      font-weight: 600;
+       }
+
+.Display--fs0fw700 {
+      color: inherit;
+      font-size: 2.5rem;
+      font-weight: 700;
+       }
+
+.Display--fs0fw800 {
+      color: inherit;
+      font-size: 2.5rem;
+      font-weight: 800;
+       }
+
+.Display--fs0fw900 {
+      color: inherit;
+      font-size: 2.5rem;
+      font-weight: 900;
+       }
+
+.Display--fs50fw100 {
+      color: inherit;
+      font-size: 3.0rem;
+      font-weight: 100;
+       }
+
+.Display--fs50fw200 {
+      color: inherit;
+      font-size: 3.0rem;
+      font-weight: 200;
+       }
+
+.Display--fs50fw300 {
+      color: inherit;
+      font-size: 3.0rem;
+      font-weight: 300;
+       }
+
+.Display--fs50fw400 {
+      color: inherit;
+      font-size: 3.0rem;
+      font-weight: 400;
+       }
+
+.Display--fs50fw500 {
+      color: inherit;
+      font-size: 3.0rem;
+      font-weight: 500;
+       }
+
+.Display--fs50fw600 {
+      color: inherit;
+      font-size: 3.0rem;
+      font-weight: 600;
+       }
+
+.Display--fs50fw700 {
+      color: inherit;
+      font-size: 3.0rem;
+      font-weight: 700;
+       }
+
+.Display--fs50fw800 {
+      color: inherit;
+      font-size: 3.0rem;
+      font-weight: 800;
+       }
+
+.Display--fs50fw900 {
+      color: inherit;
+      font-size: 3.0rem;
+      font-weight: 900;
        }
 
 .Display--fs100fw100 {
@@ -1656,29 +3423,6 @@ input[type="search"] {
 .TestComponent::before {
   content: "⋐\00a0";
 }
-
-/*! superflycss/variables-dimension | MIT License | https://github.com/superflycss/variables-dimension/blob/master/LICENSE.md */
-
-/*! bootstrap v4.0.0-alpha | MIT License | https://github.com/twbs/bootstrap/blob/master/LICENSE */
-
-/*
-=======================================
- DIMENSION VARIABLES
-=======================================
- 0:  Spacers.
- 1:  Borders.
- 2:  Z-Index
- 3:  Default Media Breakpoints
-================================
-*/
-
-/* 0 */
-
-/* 1 */
-
-/* 2 */
-
-/* 3 */
 
 .TestContainer {
   margin-left: 0rem;

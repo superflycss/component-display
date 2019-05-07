@@ -39,5 +39,16 @@ is applied to an <code>h1</code> element.
 {% endfor %}
 {% endcall %}
 
+
+{% set when1 %}
+<code class="u-text-color-md-pink-400">
+md-Display--fs500fw500</code>
+is applied to an <code>h1</code> element.  
+{% endset %}
+{% call Test.component( 'md-Display--fs500fw500', when1, 'Then the <code class="u-text-color-md-pink-400">
+md-Display--fs500fw500</code> component is rendered for medium size viewports.' ) %}
+<h1 class="md-Display--fs500fw500">md-Display--fs500fw500</h1>
+{% endcall %}
+
 </body>
 </html>

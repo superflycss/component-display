@@ -1,6 +1,6 @@
 {
   "name": "@superflycss/component-display",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "Display heading component",
   "main": "index.css",
   "scripts": {
@@ -35,5 +35,8 @@
     "@superflycss/utilities-layout": "^4.0.22",
     "lite-server": "^2.4.0",
     "npm-check-updates": "^3.1.9"
+  },
+  "dependencies": {
+    "@superflycss/variables-dimension": "^2.0.0"
   }
 }
