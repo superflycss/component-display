@@ -1,6 +1,6 @@
 {
   "name": "@superflycss/component-display",
-  "version": "1.0.5",
+  "version": "1.0.7",
   "description": "Display heading component",
   "main": "index.css",
   "scripts": {

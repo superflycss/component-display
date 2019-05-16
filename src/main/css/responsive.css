@@ -21,7 +21,7 @@
   @media (--$(vpsize)-viewport) {
 
     @each $displaySize in 0, 50, 100, 200, 300, 400, 500, 600, 700, 800, 900 {
-        .Display--fs$(displaySize)-$(vpsize) {
+        .Display--fs$(displaySize)$(vpsize) {
           color: var(--Display-text-color);
           font-size: var(--display-size-$(displaySize));
            }
@@ -30,7 +30,7 @@
     
     @each $displaySize in 0, 50, 100, 200, 300, 400, 500, 600, 700, 800, 900 {
       @each $fontWeight in 100, 200, 300, 400, 500, 600, 700, 800, 900 {
-        .Display--fs$(displaySize)fw$(fontWeight)-$(vpsize) {
+        .Display--fs$(displaySize)fw$(fontWeight)$(vpsize) {
           color: var(--Display-text-color);
           font-size: var(--display-size-$(displaySize));
           font-weight: $(fontWeight);
