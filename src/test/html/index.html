@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% import "@superflycss/component-test/TestHead.njk" as TestHead %}
+{% import "@superflycss/component-test/TestHeader.njk" as TestHeader %}
+{% import "@superflycss/component-test/TestTemplate.njk" as Test %}
+
+{{ TestHead.component( 'Display' ) }}
+
+<body>
+
+{{ TestHeader.component( 'Display' ) }}
+
+<!--START TEST -->
+
+{% set when1 %}
+<code class="u-text-color-md-pink-400">
+Display--[fsX]</code>
+is applied to an <code>h1</code> element.  
+{% endset %}
+{% call Test.component( 'Display', when1, 'Then the <code>Display--[fsX]</code> CSS is applied to the <code>h1</code> element.' ) %}
+{% for fs in [100, 200, 300, 400, 500, 600, 700, 800, 900] %}
+<h1 class="Display--fs{{fs}}">Display--fs{{fs}}</h1>
+{% endfor %}
+{% endcall %}
+
+<!--START TEST-->
+
+{% set when1 %}
+<code class="u-text-color-md-pink-400">
+Display--[fsX][fwY]</code>
+is applied to an <code>h1</code> element.  
+{% endset %}
+{% call Test.component( 'Display', when1, 'Then the <code>Display--[fsX][fwY]</code> CSS is applied to the <code>h1</code> element.' ) %}
+{% for fw in [100, 200, 300, 400, 500, 600, 700, 800, 900] %}
+{% for fs in [100, 200, 300, 400, 500, 600, 700, 800, 900] %}
+<h1 class="Display--fs{{fs}}fw{{fw}}">Display--fs{{fs}}fw{{fw}}</h1>
+{% endfor %}
+{% endfor %}
+{% endcall %}
+
+
+{% set when1 %}
+<code class="u-text-color-md-pink-400">
+Display--fs500fw500-md</code>
+is applied to an <code>h1</code> element.  
+{% endset %}
+{% call Test.component( 'Display--fs500fw500-md', when1, 'Then the <code class="u-text-color-md-pink-400">
+Display--fs500fw500-md</code> component is rendered for medium size viewports.' ) %}
+<h1 class="md-Display--fs500fw500">Display--fs500fw500-md</h1>
+{% endcall %}
+
+</body>
+</html>
