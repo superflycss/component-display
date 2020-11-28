@@ -3,6 +3,10 @@
 Responsive display component.  If applying mobile first design
 see `sm.css`, `md.css`, `lg.css` in `src/main/css`.
 
+## Snippets / Built CSS
+
+[index.css](https://github.com/superflycss/component-display/blob/master/target/main/css/index.css)
+
 ## Installation
 
 See [Installation](https://github.com/superflycss/superflycss/#installation).
