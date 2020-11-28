@@ -1,0 +1,15 @@
+:root {
+  --display-size-0: 2.5rem;
+  --display-size-50: 3rem;
+  --display-size-100: 3.5rem;
+  --display-size-200: 4rem;
+  --display-size-300: 4.5rem;
+  --display-size-400: 5rem;
+  --display-size-500: 5.5rem;
+  --display-size-600: 6rem;
+  --display-size-700: 6.5rem;
+  --display-size-800: 7rem;
+  --display-size-900: 7.5rem;
+
+  --Display-text-color: inherit;
+}
